@@ -27,6 +27,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Inter:wght@300;400&display=swap"
         rel="stylesheet">
+
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet" />
+    <!-- Mapbox JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
 </head>
 
 <body class="bg-[#fcaf3c]">
@@ -184,11 +189,8 @@
             <img src="/img/sc-bricks-bg.png" alt="bricks background" class="w-full h-full object-cover">
         </div>
         <div class="py-12 px-4 relative overflow-hidden">
-            <img src="./img/sc-map.png" alt="Restaurant location on map"
-                class="w-full h-[680px] object-cover rounded-[40px]">
-            <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                <img src="./img/sc-logo.jpg" alt="" class="w-[68px] h-[68px] rounded-full" aria-hidden="true">
-            </div>
+            <!-- Contenedor del mapa -->
+            <div id="map" class="w-full h-[680px] rounded-[40px]"></div>
         </div>
         <address class="absolute w-full text-center text-white font-manrope font-bold text-3xl not-italic space-y-2">
             <p>2723 W Division St.</p>
@@ -209,5 +211,6 @@
         </a>
     </section>
 </body>
+<script src="map.js"></script>
 
 </html>
