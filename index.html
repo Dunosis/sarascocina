@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara's Cocina</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Sara's Cocina" />
+    <meta property="og:description" content="Events · Workshops · Community" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sarascocina.com/" />
+    <meta property="og:image" content="https://sarascocina.com/img/sc-logo.jpg" />
+
+    <!-- Twitter Cards (recomendado) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sara' Cocina" />
+    <meta name="twitter:description" content="Events · Workshops · Community" />
+    <meta name="twitter:image" content="https://sarascocina.com/img/sc-logo.jpg" />
+
+    <!-- Plausible Analytics -->
+    <script defer data-domain="sarascocina.com" src="https://analytics.dunosis.com/js/script.js"></script>
+
+    <meta name="description" content="Sara's Cocina - Mexican Restaurant in Humboldt Park">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-[#fcaf3c]">
+    <!-- Header Section -->
+    <section class="relative w-full h-[720px] md:h-[850px]">
+        <!-- Fondo -->
+        <div class="absolute w-full h-[130px] md:h-[180px] overflow-hidden">
+            <img src="./img/sc-header-bg.png" alt="Restaurant ambiance"
+                class="w-full h-full object-cover object-[0_41%] md:object-[0_40%]">
+        </div>
+        <div class="absolute w-full h-[640px] md:h-[720px] top-[100px] md:top-[160px] overflow-hidden">
+            <img src="/img/sc-bricks-bg.png" alt="bricks background" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Logo -->
+        <div class="absolute left-1/2 -translate-x-1/2 top-[46px] w-[168px] h-[168px]">
+            <img src="/img/sc-logo.jpg" alt="Sara's Cocina Logo" class="w-full h-full rounded-full object-cover">
+        </div>
+
+        <!-- Content -->
+        <div class="relative pt-32 pb-16 px-4 top-[100px] text-center">
+            <h1 class="md:hidden text-4xl font-extrabold text-white font-manrope mb-8">
+                Mexican Cuisine in<br>Humboldt Park
+            </h1>
+            <h1 class="hidden md:flex justify-center text-6xl font-extrabold text-white font-manrope mb-8">
+                Mexican Cuisine in Humboldt Park
+            </h1>
+            <address class="md:hidden text-white font-inter font-light text-2xl mb-8 not-italic">
+                2559 W Division St<br>
+                Chicago IL 60622
+            </address>
+            <address class="hidden md:flex justify-center text-white font-inter text-4xl mb-8 not-italic">
+                2559 W Division St Chicago IL 60622
+            </address>
+
+            <!-- Mobile button + single taco -->
+            <div class="md:hidden">
+                <button class="bg-[#f72525] text-white px-8 py-3 rounded-lg text-2xl font-inter">
+                    See Menu
+                </button>
+                <div class="relative w-full h-[250px]">
+                    <div class="absolute left-1/2 -translate-x-1/2 top-[5px] w-[350px] h-[300px]">
+                        <img src="/img/sc-blob.png" alt="bricks background" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute left-1/2 -translate-x-1/2 z-10 top-[100px] w-[168px] h-[150px]">
+                        <img src="/img/sc-taco.png" alt="Taco" class="w-full h-full rounded-full object-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop layout: 2 tacos + centered button -->
+            <div class="hidden md:flex justify-center items-center gap-16 mt-12">
+                <!-- Taco Left -->
+                <div class="relative w-[350px] h-[350px]">
+                    <img src="/img/sc-blob.png" alt="blob" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="/img/sc-taco.png" alt="Taco Left"
+                        class="absolute inset-0 w-[168px] h-[168px] m-auto rounded-full object-cover">
+                </div>
+
+                <!-- Button -->
+                <button class="bg-[#f72525] text-white px-10 py-4 rounded-lg text-2xl font-inter">
+                    See Menu
+                </button>
+
+                <!-- Taco Right -->
+                <div class="relative w-[350px] h-[350px]">
+                    <img src="/img/sc-blob.png" alt="blob" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="/img/sc-taco.png" alt="Taco Right"
+                        class="absolute inset-0 w-[168px] h-[168px] m-auto rounded-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Favorites Section -->
+    <section class="py-12 px-4 md:w-[800px] md:mx-auto">
+        <h2 class="text-[#f72525] text-3xl md:text-5xl font-extrabold font-manrope mb-8 w-full justify-center">
+            Customer's Favorites
+        </h2>
+        <ul class="flex flex-col md:flex-row md:justify-between w-full">
+            <div class="flex flex-col md:gap-4">
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Arrachera Dinner</span>
+                </li>
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Rib Eye Steak</span>
+                </li>
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Chilaquiles</span>
+                </li>
+
+            </div>
+            <div class="flex flex-col md:gap-4">
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Huarache</span>
+                </li>
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Bistec a la Mexicana</span>
+                </li>
+                <li class="flex items-center gap-4">
+                    <img src="./img/sc-star.svg" alt="" class="w-6 h-6" aria-hidden="true">
+                    <span class="text-white text-3xl font-extrabold font-manrope">Fajita de Res</span>
+                </li>
+
+            </div>
+        </ul>
+    </section>
+
+    <!-- Products Section -->
+    <section class="bg-[#fcaf3c] py-12 px-4">
+        <h2 class="text-[#f72525] text-4xl md:text-5xl font-extrabold font-manrope text-center mb-8">
+            Our Products
+        </h2>
+        <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 md:justify-center">
+            <div class="snap-center shrink-0 w-[310px]">
+                <img src="./img/sc-product1.jpg" alt="Pizza selection"
+                    class="w-full h-[362px] object-cover rounded-[30px] mb-4">
+                <button class="w-full bg-[#40a629] text-white text-3xl font-extrabold font-manrope py-4 rounded-[30px]">
+                    Pizzas
+                </button>
+            </div>
+            <div class="snap-center shrink-0 w-[310px]">
+                <img src="./img/sc-product2.jpg" alt="Pasta dishes"
+                    class="w-full h-[362px] object-cover rounded-[30px] mb-4">
+                <button class="w-full bg-[#40a629] text-white text-3xl font-extrabold font-manrope py-4 rounded-[30px]">
+                    Pasta
+                </button>
+            </div>
+            <div class="snap-center shrink-0 w-[310px]">
+                <img src="./img/sc-product3.jpg" alt="Burger selection"
+                    class="w-full h-[362px] object-cover rounded-[30px] mb-4">
+                <button class="w-full bg-[#40a629] text-white text-3xl font-extrabold font-manrope py-4 rounded-[30px]">
+                    Burgers
+                </button>
+            </div>
+            <div class="snap-center shrink-0 w-[310px]">
+                <img src="./img/sc-product4.jpg" alt="Sandwich selection"
+                    class="w-full h-[362px] object-cover rounded-[30px] mb-4">
+                <button class="w-full bg-[#40a629] text-white text-3xl font-extrabold font-manrope py-4 rounded-[30px]">
+                    Sandwiches
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="relative w-full h-[950px] justify-center items-center">
+        <div class="absolute w-full h-full">
+            <img src="/img/sc-bricks-bg.png" alt="bricks background" class="w-full h-full object-cover">
+        </div>
+        <div class="py-12 px-4 relative overflow-hidden">
+            <img src="./img/sc-map.png" alt="Restaurant location on map"
+                class="w-full h-[680px] object-cover rounded-[40px]">
+            <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                <img src="./img/sc-logo.jpg" alt="" class="w-[68px] h-[68px] rounded-full" aria-hidden="true">
+            </div>
+        </div>
+        <address class="absolute w-full text-center text-white font-manrope font-bold text-3xl not-italic space-y-2">
+            <p>2723 W Division St.</p>
+            <p>(773) 329-2283</p>
+            <p>sarascocina@gmail.com</p>
+        </address>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-[#fcaf3c] py-12 px-4 text-center">
+        <p class="text-[#191919] text-3xl font-extrabold font-manrope mb-8">
+            Don't miss out on this Humboldt Park treasure! Call now to order and savor the delicious Mexican flavors!
+        </p>
+        <a href="https://wa.me/773292283?text=I%20want%20to%20place%20an%20order" target="_blank"
+            rel="noopener noreferrer"
+            class="bg-[#f72525] text-white text-3xl font-extrabold font-manrope px-8 py-3 rounded-lg border border-[#2c2c2c] inline-block text-center">
+            Order Now!
+        </a>
+    </section>
+</body>
+
+</html>
