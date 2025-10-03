@@ -1,0 +1,44 @@
+/* Animaciones solo para pantallas md (768px) o más */
+@media (min-width: 768px) {
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-200%) scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(200%) scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes pulseScale {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+  }
+
+  .animate-slideInLeft {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  .animate-slideInRight {
+    animation: slideInRight 1s ease-out forwards;
+  }
+  .animate-pulseScale {
+    animation: pulseScale 1.8s ease-in-out infinite;
+  }
+}
