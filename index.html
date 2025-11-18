@@ -251,6 +251,14 @@
         <div class="py-12 px-4 relative overflow-hidden">
             <!-- Contenedor del mapa -->
             <div id="map" class="w-full h-[680px] rounded-[40px]"></div>
+            <!-- Botón para centrar el mapa -->
+            <button id="centerMapBtn" 
+                class="absolute bottom-14 right-12 bg-white/90 backdrop-blur-sm text-[#FE0000] p-3 rounded-full shadow-md hover:shadow-lg transform transition-all duration-300 hover:scale-110 z-10 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+            </button>
         </div>
         <address class="absolute w-full text-center text-white font-manrope font-bold text-3xl not-italic space-y-2">
             <p>2723 W Division St.</p>

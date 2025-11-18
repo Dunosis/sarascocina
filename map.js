@@ -20,3 +20,16 @@ new mapboxgl.Marker({
 })
   .setLngLat([-87.69539502540738, 41.90259597685963])
   .addTo(map);
+
+// Coordenadas del marcador
+const markerCoordinates = [-87.69539502540738, 41.90259597685963];
+
+// Botón para centrar el mapa
+const centerMapBtn = document.getElementById("centerMapBtn");
+centerMapBtn.addEventListener("click", () => {
+  map.flyTo({
+    center: markerCoordinates,
+    zoom: 13,
+    duration: 1000,
+  });
+});
