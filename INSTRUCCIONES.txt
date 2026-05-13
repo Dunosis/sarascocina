@@ -1,0 +1,330 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    WEBSITE INSTRUCTIONS
+                         Sara's Cocina
+═══════════════════════════════════════════════════════════════════════════════
+
+Welcome to the usage and maintenance instructions for Sara's Cocina website.
+
+This document contains practical information on how to use and update the website.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              WEBSITE CONTENT
+═══════════════════════════════════════════════════════════════════════════════
+
+The website includes the following sections:
+
+1. MAIN PAGE (Header)
+   - Restaurant logo
+   - Title: "Mexican Cuisine in Humboldt Park"
+   - Restaurant address
+   - Button to download the menu in PDF format
+
+2. CUSTOMER FAVORITES
+   - List of the most popular dishes among customers
+   - Includes: Arrachera Dinner, Rib Eye Steak, Chilaquiles, Huarache, 
+     Bistec a la Mexicana, Fajita de Res
+
+3. OUR OTHER DISHES
+   - Scrollable gallery with images of different categories:
+     Pizzas, Ribs, Burgers, Sandwiches, Chilaquiles, Fettuccini, 
+     Chicken Torta, Shrimp Broccoli, Steak Burrito
+
+4. LOCATION
+   - Interactive map showing the restaurant location
+   - Floating button to center the map if the view is lost
+   - Contact information: address, phone, and email
+
+5. CALL TO ACTION
+   - Promotional message
+   - Button to call the restaurant directly
+
+6. FOOTER
+   - Information about the company that developed the website
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                        HOW TO UPDATE INFORMATION
+═══════════════════════════════════════════════════════════════════════════════
+
+If you need to update information on the website, contact your developer
+or follow these basic instructions:
+
+CHANGE THE ADDRESS:
+- Look for the "address" tags in the index.html file
+- Update the text with the new address
+
+CHANGE THE PHONE NUMBER:
+- Look for the number "(773) 292-9000" in the index.html file
+- Replace it with the new phone number
+
+CHANGE THE EMAIL:
+- Look for "sarascocina@gmail.com" in the index.html file
+- Replace it with the new email address
+
+UPDATE THE MENU PDF:
+- Replace the "menu.pdf" file with your new menu
+- Make sure the file name is exactly "menu.pdf"
+
+ADD NEW DISH IMAGES:
+- Add the new images to the "img/" folder
+- Use descriptive names for the files
+- Contact your developer to add them to the website
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                           WEBSITE FEATURES
+═══════════════════════════════════════════════════════════════════════════════
+
+"SEE MENU" BUTTON:
+- Allows visitors to download the menu in PDF format
+- Works on computers and mobile devices
+
+INTERACTIVE MAP:
+- Shows the exact location of the restaurant
+- Users can zoom and move the map
+- Floating button (circular icon) to re-center the map
+
+"ORDER NOW" BUTTON:
+- When clicked, opens the phone dialer application
+- Allows calling the restaurant directly from mobile devices
+
+RESPONSIVE DESIGN:
+- The website automatically adapts to different screen sizes
+- Works perfectly on computers, tablets, and mobile phones
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              IMPORTANT FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+index.html          - Main website file
+map.js              - Interactive map configuration
+menu.pdf            - Restaurant menu (downloadable)
+css/                - Folder with styles and animations
+img/                - Folder with all website images
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            FREQUENTLY ASKED QUESTIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+How do I update the menu?
+- Replace the menu.pdf file with your new menu keeping the same name
+
+Can I change the website colors?
+- Yes, but it requires technical knowledge. Contact your developer.
+
+How do I add more dishes to the gallery?
+- Contact your developer to add new images and categories.
+
+Does the website work on all browsers?
+- Yes, it works on Chrome, Firefox, Safari, and Edge (recent versions).
+
+Can I change the map location?
+- Yes, but it requires updating coordinates. Contact your developer.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              CONTACT AND SUPPORT
+═══════════════════════════════════════════════════════════════════════════════
+
+If you need help updating or modifying the website, contact:
+
+DUNOSIS
+Website: https://dunosis.com
+
+They can help you with:
+- Content updates
+- Design changes
+- Adding new features
+- Technical problem solving
+- Website maintenance
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              TECHNICAL INFORMATION
+═══════════════════════════════════════════════════════════════════════════════
+
+This website was developed by DUNOSIS (https://dunosis.com)
+
+The website is hosted on GitHub Pages and uses:
+- Responsive design (adapts to all devices)
+- Interactive Mapbox map
+- Search engine optimization (SEO)
+- Analytics to measure website visits
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Last updated: 2024
+
+Developed by DUNOSIS - https://dunosis.com
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    INSTRUCCIONES DEL SITIO WEB
+                         Sara's Cocina
+═══════════════════════════════════════════════════════════════════════════════
+
+Bienvenido a las instrucciones de uso y mantenimiento del sitio web de Sara's Cocina.
+
+Este documento contiene información práctica sobre cómo usar y actualizar el sitio web.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              CONTENIDO DEL SITIO
+═══════════════════════════════════════════════════════════════════════════════
+
+El sitio web incluye las siguientes secciones:
+
+1. PÁGINA PRINCIPAL (Header)
+   - Logo del restaurante
+   - Título: "Mexican Cuisine in Humboldt Park"
+   - Dirección del restaurante
+   - Botón para descargar el menú en PDF
+
+2. PLATILLOS FAVORITOS
+   - Lista de los platillos más populares entre los clientes
+   - Incluye: Arrachera Dinner, Rib Eye Steak, Chilaquiles, Huarache, 
+     Bistec a la Mexicana, Fajita de Res
+
+3. OTROS PLATILLOS
+   - Galería deslizable con imágenes de diferentes categorías:
+     Pizzas, Ribs, Burgers, Sandwiches, Chilaquiles, Fettuccini, 
+     Chicken Torta, Shrimp Broccoli, Steak Burrito
+
+4. UBICACIÓN
+   - Mapa interactivo que muestra la ubicación del restaurante
+   - Botón flotante para centrar el mapa si se pierde la vista
+   - Información de contacto: dirección, teléfono y email
+
+5. LLAMAR A LA ACCIÓN
+   - Mensaje promocional
+   - Botón para llamar directamente al restaurante
+
+6. FOOTER
+   - Información sobre la empresa que desarrolló el sitio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                        CÓMO ACTUALIZAR INFORMACIÓN
+═══════════════════════════════════════════════════════════════════════════════
+
+Si necesitas actualizar información en el sitio, contacta a tu desarrollador
+o sigue estas instrucciones básicas:
+
+CAMBIAR LA DIRECCIÓN:
+- Busca en el archivo index.html las etiquetas que dicen "address"
+- Actualiza el texto con la nueva dirección
+
+CAMBIAR EL TELÉFONO:
+- Busca en el archivo index.html el número "(773) 292-9000"
+- Reemplázalo con el nuevo número de teléfono
+
+CAMBIAR EL EMAIL:
+- Busca en el archivo index.html "sarascocina@gmail.com"
+- Reemplázalo con el nuevo correo electrónico
+
+ACTUALIZAR EL MENÚ PDF:
+- Reemplaza el archivo "menu.pdf" con tu nuevo menú
+- Asegúrate de que el nombre del archivo sea exactamente "menu.pdf"
+
+AGREGAR NUEVAS IMÁGENES DE PLATILLOS:
+- Agrega las nuevas imágenes en la carpeta "img/"
+- Usa nombres descriptivos para los archivos
+- Contacta a tu desarrollador para agregarlas al sitio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                           FUNCIONALIDADES DEL SITIO
+═══════════════════════════════════════════════════════════════════════════════
+
+BOTÓN "SEE MENU":
+- Permite a los visitantes descargar el menú en formato PDF
+- Funciona en computadoras y dispositivos móviles
+
+MAPA INTERACTIVO:
+- Muestra la ubicación exacta del restaurante
+- Los usuarios pueden hacer zoom y mover el mapa
+- Botón flotante (icono circular) para volver a centrar el mapa
+
+BOTÓN "ORDER NOW":
+- Al hacer clic, abre la aplicación de llamadas del teléfono
+- Permite llamar directamente al restaurante desde dispositivos móviles
+
+DISEÑO RESPONSIVE:
+- El sitio se adapta automáticamente a diferentes tamaños de pantalla
+- Funciona perfectamente en computadoras, tablets y teléfonos móviles
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              ARCHIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════════════════════════
+
+index.html          - Archivo principal del sitio web
+map.js              - Configuración del mapa interactivo
+menu.pdf            - Menú del restaurante (descargable)
+css/                - Carpeta con estilos y animaciones
+img/                - Carpeta con todas las imágenes del sitio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            PREGUNTAS FRECUENTES
+═══════════════════════════════════════════════════════════════════════════════
+
+¿Cómo actualizo el menú?
+- Reemplaza el archivo menu.pdf con tu nuevo menú manteniendo el mismo nombre
+
+¿Puedo cambiar los colores del sitio?
+- Sí, pero requiere conocimientos técnicos. Contacta a tu desarrollador.
+
+¿Cómo agrego más platillos a la galería?
+- Contacta a tu desarrollador para agregar nuevas imágenes y categorías.
+
+¿El sitio funciona en todos los navegadores?
+- Sí, funciona en Chrome, Firefox, Safari y Edge (versiones recientes).
+
+¿Puedo cambiar la ubicación del mapa?
+- Sí, pero requiere actualizar coordenadas. Contacta a tu desarrollador.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              CONTACTO Y SOPORTE
+═══════════════════════════════════════════════════════════════════════════════
+
+Si necesitas ayuda para actualizar o modificar el sitio web, contacta a:
+
+DUNOSIS
+Sitio web: https://dunosis.com
+
+Ellos pueden ayudarte con:
+- Actualizaciones de contenido
+- Cambios de diseño
+- Agregar nuevas funcionalidades
+- Solución de problemas técnicos
+- Mantenimiento del sitio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              INFORMACIÓN TÉCNICA
+═══════════════════════════════════════════════════════════════════════════════
+
+Este sitio web fue desarrollado por DUNOSIS (https://dunosis.com)
+
+El sitio está alojado en GitHub Pages y utiliza:
+- Diseño responsive (se adapta a todos los dispositivos)
+- Mapa interactivo de Mapbox
+- Optimización para motores de búsqueda (SEO)
+- Analytics para medir visitas al sitio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Última actualización: 2024
+
+Desarrollado por DUNOSIS - https://dunosis.com
+
+═══════════════════════════════════════════════════════════════════════════════
